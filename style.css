@@ -1,0 +1,257 @@
+
+body{
+    background-color: #e4e9ed;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+.menu{
+    display: flex;
+    background-color: #2b506e;
+    color: aliceblue;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    position: sticky;
+    
+}
+
+
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+li a{
+    color: aliceblue;
+    list-style: none;
+    text-transform: none;    
+    font-weight: 700;
+
+}
+.serch{
+padding: 10px;
+}
+
+.navli{
+    list-style: none;
+    padding-left: 30px;
+    
+}
+
+.navli:hover{
+    font-size: larger;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.search-btn{
+    padding: 9px;
+    
+}
+.search-btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: aqua;
+    border-color: aqua;
+}
+
+
+
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+.part-1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    padding: 10px;
+   
+    margin: 40px;
+    
+}
+
+.song{
+    text-align: center;
+   margin-top: 15px;
+   margin-left: 50px;
+}
+
+
+
+.heading{text-align: center;
+
+padding: 40px;}
+
+.imgg{
+    border-radius: 40%;
+    padding-right: 30px;
+}
+
+.paragraph{
+    margin-top: 16px;
+}
+
+.part-2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+li{
+    list-style-position: inside;}
+ul{
+    text-align: left;
+    list-style-position: inside;
+    display: inline-block;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+
+}
+
+#table{
+    text-align: center;
+}
+
+.table2 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+
+
+} 
+
+th{
+    padding: 12px;
+}
+
+table, th, td{
+    text-align: center;
+    border: solid black 0.5px;
+}
+
+#register{
+    display: flex;
+    justify-content: center;
+}
+
+.form-heading{
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    border: none;
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.form-control{
+    width: 310px;
+    padding: 6px;
+    border: none;
+}
+
+.sub{
+    width: 310px;
+    margin-top: 10px;
+    background-color: #a0f2b6;
+    border: none;
+    color: #0e5cab;
+    text-transform: uppercase;
+}
+
+.sub:hover{
+background-color: #2e573f;
+cursor: pointer;
+color: azure;
+}
+
+.vid{
+    width: 560px; 
+    height: 315px; 
+
+    
+    display: block;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+.pdf{
+    display: flex;
+    justify-content: center;
+}
+
+.ln{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #2e573f;
+    color: white;
+    font-weight: 400;
+}
+
+#button{
+    
+    padding: 10px;
+    margin-right: 5px;
+  
+    /* transform: scale(4) */
+}
+
+.DecBtn{
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.increment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.incNum{
+    margin-left: 5px;
+}
+
+.second{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 100px;
+}
+
+.hide{
+    padding: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.smile{
+    display: none;
+}
